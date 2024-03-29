@@ -21,6 +21,7 @@ urlpatterns = [
     path('vector_search/', views.vector_search, name='vector_search'),
     
     #### REGISTER GENAI URLS BELOW ####    
+    path('generate_product_description/<int:product_id>/', views.generate_product_description, name='generate_product_description'),
 
 
 ]

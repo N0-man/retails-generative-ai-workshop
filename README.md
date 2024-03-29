@@ -1,10 +1,29 @@
-## Retails Generative AI Workshop
+## AWS Generative AI Workshop Codebase
 
-## Security
+## [AWS Samples Org](https://github.com/aws-samples)
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+### Feature 1 - Generate Product Description
 
-## License
+[generate_product_description.ipynb](/notebooks/generate_product_description.ipynb) notebook
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
+### Feature 2 - Create Response to Customer Reviews
 
+[create_review_response.ipynb](/notebooks/create_review_response.ipynb) notebook
+
+### Feature 3 - Create New Design Ideas
+
+[create_design_ideas.ipynb](/notebooks/create_design_ideas.ipynb) notebook
+
+### Feature 4 - Summarize Product Reviews
+
+[summarize_customer_reviews.ipynb](/notebooks/summarize_customer_reviews.ipynb) notebook
+
+### Feature 5 - Question Answering
+
+[question_answering.ipynb](/notebooks/question_answering.ipynb) notebook
+
+### Feature 6 - Similarity Search
+
+[vector_search.ipynb](/notebooks/vector_search.ipynb) notebook
+
+### [Main Page](https://d1vnv77dv8r37p.cloudfront.net/tw_genai/tw_genai.html)

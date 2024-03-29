@@ -70,7 +70,9 @@
 			<p>{{single_product.description}}</p>
 
 			<!-- FEATURE 1 BUTTON START -->
-
+			{% if request.user.role == "Manager" %}
+				<a href="{% url 'generate_description' single_product.id%}" class="btn btn-secondary">Generate a new product description &nbsp&nbsp<i class="fa fa-file-text-o"></i></a>
+			{% endif %}
 		
 	
 			<!-- FEATURE 1 BUTTON END -->
